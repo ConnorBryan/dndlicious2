@@ -70,6 +70,8 @@ function App() {
 
     setGame(nextGame);
 
+    window.localStorage.setItem(game, JSON.stringify(nextGame));
+
     socket.send(JSON.stringify(nextGame));
   }
 
