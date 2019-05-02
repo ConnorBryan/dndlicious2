@@ -8,11 +8,11 @@
         "value": "Normal",
         "type": "text"
       },
-      "armorClass": { "display": "Armor Class", "value": 10, "type": "number" },
-      "initiative": { "display": "Initiative", "value": 0, "type": "number" },
-      "speed": { "display": "Speed", "value": 0, "type": "number" },
+      "armorClass": { "display": "Armor Class", "value": 17, "type": "number" },
+      "initiative": { "display": "Initiative", "value": 3, "type": "number" },
+      "speed": { "display": "Speed", "value": 35, "type": "number" },
       "resources": { "display": "Resources", "value": 0, "type": "number" },
-      "gold": { "display": "Gold", "value": 0, "type": "number" },
+      "gold": { "display": "Gold", "value": 250, "type": "number" },
       "inspiration": {
         "display": "Inspiration",
         "value": false,
@@ -20,30 +20,34 @@
       },
       "proficiencyBonus": {
         "display": "Proficiency Bonus",
-        "value": 2,
+        "value": 3,
         "type": "number"
       },
       "passivePerception": {
         "display": "Passive Perception",
-        "value": 10,
+        "value": 12,
         "type": "number"
       },
       "basicInformation": {
         "display": "Basic Information",
         "fields": {
-          "class": { "display": "Class", "value": "Rogue", "type": "text" },
-          "level": { "display": "Level", "value": 2, "type": "number" },
+          "class": { "display": "Class", "value": "Ranger", "type": "text" },
+          "level": { "display": "Level", "value": 5, "type": "number" },
           "background": {
             "display": "Background",
             "value": "Outlander",
             "type": "text"
           },
           "player": { "display": "Player", "value": "Elena", "type": "text" },
-          "race": { "display": "Race", "value": "", "type": "text" },
-          "alignment": { "display": "Alignment", "value": "", "type": "text" },
+          "race": { "display": "Race", "value": "Wood Elf", "type": "text" },
+          "alignment": {
+            "display": "Alignment",
+            "value": "Neutral",
+            "type": "text"
+          },
           "experiencePoints": {
             "display": "Experience Points",
-            "value": 0,
+            "value": 11278,
             "type": "number"
           }
         }
@@ -54,40 +58,40 @@
           "strength": { "display": "Strength", "value": 10, "type": "number" },
           "dexterity": {
             "display": "Dexterity",
-            "value": 10,
+            "value": 17,
             "type": "number"
           },
           "constitution": {
             "display": "Constitution",
-            "value": 10,
+            "value": 13,
             "type": "number"
           },
           "intelligence": {
             "display": "Intelligence",
-            "value": 10,
+            "value": 12,
             "type": "number"
           },
-          "wisdom": { "display": "Wisdom", "value": 10, "type": "number" },
-          "charisma": { "display": "Charisma", "value": 10, "type": "number" }
+          "wisdom": { "display": "Wisdom", "value": 15, "type": "number" },
+          "charisma": { "display": "Charisma", "value": 8, "type": "number" }
         }
       },
       "savingThrows": {
         "display": "Saving Throws",
         "fields": {
-          "strength": { "display": "Strength", "value": 0, "type": "number" },
-          "dexterity": { "display": "Dexterity", "value": 0, "type": "number" },
+          "strength": { "display": "Strength", "value": 3, "type": "number" },
+          "dexterity": { "display": "Dexterity", "value": 6, "type": "number" },
           "constitution": {
             "display": "Constitution",
-            "value": 0,
+            "value": 1,
             "type": "number"
           },
           "intelligence": {
             "display": "Intelligence",
-            "value": 0,
+            "value": 1,
             "type": "number"
           },
-          "wisdom": { "display": "Wisdom", "value": 0, "type": "number" },
-          "charisma": { "display": "Charisma", "value": 0, "type": "number" }
+          "wisdom": { "display": "Wisdom", "value": 2, "type": "number" },
+          "charisma": { "display": "Charisma", "value": -1, "type": "number" }
         }
       },
       "skills": {
@@ -95,54 +99,58 @@
         "fields": {
           "acrobatics": {
             "display": "Acrobatics",
-            "value": 0,
+            "value": 3,
             "type": "number"
           },
           "animalHandling": {
             "display": "Animal Handling",
-            "value": 0,
+            "value": 2,
             "type": "number"
           },
-          "arcana": { "display": "Arcana", "value": 0, "type": "number" },
-          "athletics": { "display": "Athletics", "value": 0, "type": "number" },
-          "deception": { "display": "Deception", "value": 0, "type": "number" },
-          "history": { "display": "History", "value": 0, "type": "number" },
-          "insight": { "display": "Insight", "value": 0, "type": "number" },
+          "arcana": { "display": "Arcana", "value": 1, "type": "number" },
+          "athletics": { "display": "Athletics", "value": 3, "type": "number" },
+          "deception": {
+            "display": "Deception",
+            "value": -1,
+            "type": "number"
+          },
+          "history": { "display": "History", "value": 1, "type": "number" },
+          "insight": { "display": "Insight", "value": 5, "type": "number" },
           "intimidation": {
             "display": "Intimidation",
-            "value": 0,
+            "value": -1,
             "type": "number"
           },
           "investigation": {
             "display": "Investigation",
-            "value": 0,
+            "value": 2,
             "type": "number"
           },
-          "medicine": { "display": "Medicine", "value": 0, "type": "number" },
-          "nature": { "display": "Nature", "value": 0, "type": "number" },
+          "medicine": { "display": "Medicine", "value": 2, "type": "number" },
+          "nature": { "display": "Nature", "value": 4, "type": "number" },
           "perception": {
             "display": "Perception",
-            "value": 0,
+            "value": 5,
             "type": "number"
           },
           "performance": {
             "display": "Performance",
-            "value": 0,
+            "value": -1,
             "type": "number"
           },
           "persuasion": {
             "display": "Persuasion",
-            "value": 0,
+            "value": -1,
             "type": "number"
           },
-          "religion": { "display": "Religion", "value": 0, "type": "number" },
+          "religion": { "display": "Religion", "value": 1, "type": "number" },
           "sleightOfHand": {
             "display": "Sleight of Hand",
-            "value": 0,
+            "value": 3,
             "type": "number"
           },
-          "stealth": { "display": "Stealth", "value": 0, "type": "number" },
-          "survival": { "display": "Survival", "value": 0, "type": "number" }
+          "stealth": { "display": "Stealth", "value": 3, "type": "number" },
+          "survival": { "display": "Survival", "value": 5, "type": "number" }
         }
       },
       "hitPoints": {
@@ -150,12 +158,12 @@
         "fields": {
           "currentHitPoints": {
             "display": "Current Hit Points",
-            "value": 0,
+            "value": 35,
             "type": "number"
           },
           "maximumHitPoints": {
             "display": "Maximum Hit Points",
-            "value": 0,
+            "value": 35,
             "type": "number"
           },
           "temporaryHitPoints": {
@@ -168,8 +176,8 @@
       "hitDice": {
         "display": "Hit Dice",
         "fields": {
-          "current": { "display": "Current", "value": 1, "type": "number" },
-          "maximum": { "display": "Maximum", "value": 1, "type": "number" },
+          "current": { "display": "Current", "value": 3, "type": "number" },
+          "maximum": { "display": "Maximum", "value": 5, "type": "number" },
           "type": { "display": "Type", "value": "1d10", "type": "text" }
         }
       },
@@ -182,16 +190,24 @@
       },
       "attacksAndSpellcasting": {
         "display": "Attacks and Spellcasting",
-        "value": "",
+        "value": "Heavy Crossbow\n+8 to hit\n1d10+3 piercing\n\nEagle Talons\n+7 to hit\n1d4+5 slashing\n\nJavelin\n+3 to hit\n1d6+3 piercing\n\nHand-Axe\n+3 to hit\n1d6+1 slashing",
         "type": "textarea"
       },
       "proficiencies": {
         "display": "Proficiencies",
-        "value": "",
+        "value": "Simple & Martial Weapons\nLight & Medium Armor\nShields, Bows, Crossbows\n\nCommon, Elvish, Draconic, Goblin\n\nViola",
         "type": "textarea"
       },
-      "equipment": { "display": "Equipment", "value": "", "type": "textarea" },
-      "features": { "display": "Features", "value": "", "type": "textarea" },
+      "equipment": {
+        "display": "Equipment",
+        "value": "Dungeoneer Pack\nStaff\nHunting Trap\nAnimal Trophy\nTraveler Clothes\nWater (3)\nMinor Health Potion (4)\nOil Flask (5)\nViola\nAcid Vial (3)\n",
+        "type": "textarea"
+      },
+      "features": {
+        "display": "Features",
+        "value": "Darkvision 60'\n\nArchery Fighting Style\n> +2 to ranged attacks\n\nBeastmaster: Eagle\n> AC 15\n> HP: 20/20\n> Speed: 60'\n> Perception: +4\n\nPrimieval Awareness\n> Detect creature type in 1 mile (1 spell slot)\n\nExtra Attack\n> Attack twice when attacking as an action.\n\nFavored Terrain\n> Forest\n\nFavored Enemies\n> Goblins, Hobgoblins\n\nCrossbow Expert\n",
+        "type": "textarea"
+      },
       "mentality": {
         "display": "Mentality",
         "fields": {
@@ -239,7 +255,7 @@
                 "type": "number"
               }
             },
-            "value": "",
+            "value": "Slots: 4/4\n\nCure Wounds\nSpeak with Animals\nDetect Poison and Disease",
             "type": "textarea"
           },
           "2": {
@@ -256,7 +272,7 @@
                 "type": "number"
               }
             },
-            "value": "",
+            "value": "Slots 2/2\n\nLesser Restoration",
             "type": "textarea"
           },
           "3": {
@@ -390,11 +406,11 @@
         "value": "Normal",
         "type": "text"
       },
-      "armorClass": { "display": "Armor Class", "value": 10, "type": "number" },
-      "initiative": { "display": "Initiative", "value": 0, "type": "number" },
-      "speed": { "display": "Speed", "value": 0, "type": "number" },
-      "resources": { "display": "Resources", "value": 0, "type": "number" },
-      "gold": { "display": "Gold", "value": 0, "type": "number" },
+      "armorClass": { "display": "Armor Class", "value": 16, "type": "number" },
+      "initiative": { "display": "Initiative", "value": 4, "type": "number" },
+      "speed": { "display": "Speed", "value": 45, "type": "number" },
+      "resources": { "display": "Resources", "value": 5, "type": "number" },
+      "gold": { "display": "Gold", "value": 447, "type": "number" },
       "inspiration": {
         "display": "Inspiration",
         "value": false,
@@ -402,30 +418,34 @@
       },
       "proficiencyBonus": {
         "display": "Proficiency Bonus",
-        "value": 2,
+        "value": 3,
         "type": "number"
       },
       "passivePerception": {
         "display": "Passive Perception",
-        "value": 10,
+        "value": 12,
         "type": "number"
       },
       "basicInformation": {
         "display": "Basic Information",
         "fields": {
-          "class": { "display": "Class", "value": "Rogue", "type": "text" },
-          "level": { "display": "Level", "value": 2, "type": "number" },
+          "class": { "display": "Class", "value": "Monk", "type": "text" },
+          "level": { "display": "Level", "value": 5, "type": "number" },
           "background": {
             "display": "Background",
-            "value": "Outlander",
+            "value": "Urchin",
             "type": "text"
           },
-          "player": { "display": "Player", "value": "Elena", "type": "text" },
-          "race": { "display": "Race", "value": "", "type": "text" },
-          "alignment": { "display": "Alignment", "value": "", "type": "text" },
+          "player": { "display": "Player", "value": "Seth", "type": "text" },
+          "race": { "display": "Race", "value": "Wood Elf", "type": "text" },
+          "alignment": {
+            "display": "Alignment",
+            "value": "Lawful Neutral",
+            "type": "text"
+          },
           "experiencePoints": {
             "display": "Experience Points",
-            "value": 0,
+            "value": 11278,
             "type": "number"
           }
         }
@@ -433,15 +453,15 @@
       "abilityScores": {
         "display": "Ability Scores",
         "fields": {
-          "strength": { "display": "Strength", "value": 10, "type": "number" },
+          "strength": { "display": "Strength", "value": 12, "type": "number" },
           "dexterity": {
             "display": "Dexterity",
-            "value": 10,
+            "value": 19,
             "type": "number"
           },
           "constitution": {
             "display": "Constitution",
-            "value": 10,
+            "value": 13,
             "type": "number"
           },
           "intelligence": {
@@ -449,18 +469,18 @@
             "value": 10,
             "type": "number"
           },
-          "wisdom": { "display": "Wisdom", "value": 10, "type": "number" },
-          "charisma": { "display": "Charisma", "value": 10, "type": "number" }
+          "wisdom": { "display": "Wisdom", "value": 15, "type": "number" },
+          "charisma": { "display": "Charisma", "value": 8, "type": "number" }
         }
       },
       "savingThrows": {
         "display": "Saving Throws",
         "fields": {
-          "strength": { "display": "Strength", "value": 0, "type": "number" },
-          "dexterity": { "display": "Dexterity", "value": 0, "type": "number" },
+          "strength": { "display": "Strength", "value": 1, "type": "number" },
+          "dexterity": { "display": "Dexterity", "value": 4, "type": "number" },
           "constitution": {
             "display": "Constitution",
-            "value": 0,
+            "value": 1,
             "type": "number"
           },
           "intelligence": {
@@ -468,8 +488,8 @@
             "value": 0,
             "type": "number"
           },
-          "wisdom": { "display": "Wisdom", "value": 0, "type": "number" },
-          "charisma": { "display": "Charisma", "value": 0, "type": "number" }
+          "wisdom": { "display": "Wisdom", "value": 2, "type": "number" },
+          "charisma": { "display": "Charisma", "value": -1, "type": "number" }
         }
       },
       "skills": {
@@ -477,22 +497,26 @@
         "fields": {
           "acrobatics": {
             "display": "Acrobatics",
-            "value": 0,
+            "value": 4,
             "type": "number"
           },
           "animalHandling": {
             "display": "Animal Handling",
-            "value": 0,
+            "value": 2,
             "type": "number"
           },
           "arcana": { "display": "Arcana", "value": 0, "type": "number" },
-          "athletics": { "display": "Athletics", "value": 0, "type": "number" },
-          "deception": { "display": "Deception", "value": 0, "type": "number" },
+          "athletics": { "display": "Athletics", "value": 1, "type": "number" },
+          "deception": {
+            "display": "Deception",
+            "value": -1,
+            "type": "number"
+          },
           "history": { "display": "History", "value": 0, "type": "number" },
-          "insight": { "display": "Insight", "value": 0, "type": "number" },
+          "insight": { "display": "Insight", "value": 2, "type": "number" },
           "intimidation": {
             "display": "Intimidation",
-            "value": 0,
+            "value": -1,
             "type": "number"
           },
           "investigation": {
@@ -500,31 +524,31 @@
             "value": 0,
             "type": "number"
           },
-          "medicine": { "display": "Medicine", "value": 0, "type": "number" },
+          "medicine": { "display": "Medicine", "value": 2, "type": "number" },
           "nature": { "display": "Nature", "value": 0, "type": "number" },
           "perception": {
             "display": "Perception",
-            "value": 0,
+            "value": 2,
             "type": "number"
           },
           "performance": {
             "display": "Performance",
-            "value": 0,
+            "value": -1,
             "type": "number"
           },
           "persuasion": {
             "display": "Persuasion",
-            "value": 0,
+            "value": -1,
             "type": "number"
           },
           "religion": { "display": "Religion", "value": 0, "type": "number" },
           "sleightOfHand": {
             "display": "Sleight of Hand",
-            "value": 0,
+            "value": 4,
             "type": "number"
           },
-          "stealth": { "display": "Stealth", "value": 0, "type": "number" },
-          "survival": { "display": "Survival", "value": 0, "type": "number" }
+          "stealth": { "display": "Stealth", "value": 4, "type": "number" },
+          "survival": { "display": "Survival", "value": 2, "type": "number" }
         }
       },
       "hitPoints": {
@@ -532,12 +556,12 @@
         "fields": {
           "currentHitPoints": {
             "display": "Current Hit Points",
-            "value": 0,
+            "value": 32,
             "type": "number"
           },
           "maximumHitPoints": {
             "display": "Maximum Hit Points",
-            "value": 0,
+            "value": 32,
             "type": "number"
           },
           "temporaryHitPoints": {
@@ -550,9 +574,9 @@
       "hitDice": {
         "display": "Hit Dice",
         "fields": {
-          "current": { "display": "Current", "value": 1, "type": "number" },
-          "maximum": { "display": "Maximum", "value": 1, "type": "number" },
-          "type": { "display": "Type", "value": "1d10", "type": "text" }
+          "current": { "display": "Current", "value": 3, "type": "number" },
+          "maximum": { "display": "Maximum", "value": 5, "type": "number" },
+          "type": { "display": "Type", "value": "1d8", "type": "text" }
         }
       },
       "deathSaves": {
@@ -564,15 +588,19 @@
       },
       "attacksAndSpellcasting": {
         "display": "Attacks and Spellcasting",
-        "value": "",
+        "value": "Quarterstaff\n+7 to hit\n1d8+4 bludgeoning\n\nShortbow\n+7 to hit\n1d6+4 piercing\n\nMartial Arts\n+7 to hit\n1d6+4 bludgeoning",
         "type": "textarea"
       },
       "proficiencies": {
         "display": "Proficiencies",
-        "value": "",
+        "value": "Elvish, Common",
         "type": "textarea"
       },
-      "equipment": { "display": "Equipment", "value": "", "type": "textarea" },
+      "equipment": {
+        "display": "Equipment",
+        "value": "Small Knife\nPan Flute\nCalligrapher's Tools\nDarts (10)\nExplorer's Pack\nMinor Healing Potion (3)\nOil Flask (10)\nWater (3 days)\nAcid Vial (2)\nTorch (9)\n",
+        "type": "textarea"
+      },
       "features": { "display": "Features", "value": "", "type": "textarea" },
       "mentality": {
         "display": "Mentality",
@@ -772,11 +800,11 @@
         "value": "Normal",
         "type": "text"
       },
-      "armorClass": { "display": "Armor Class", "value": 10, "type": "number" },
-      "initiative": { "display": "Initiative", "value": 0, "type": "number" },
-      "speed": { "display": "Speed", "value": 0, "type": "number" },
-      "resources": { "display": "Resources", "value": 0, "type": "number" },
-      "gold": { "display": "Gold", "value": 0, "type": "number" },
+      "armorClass": { "display": "Armor Class", "value": 18, "type": "number" },
+      "initiative": { "display": "Initiative", "value": 3, "type": "number" },
+      "speed": { "display": "Speed", "value": 35, "type": "number" },
+      "resources": { "display": "Resources", "value": 3, "type": "number" },
+      "gold": { "display": "Gold", "value": 280, "type": "number" },
       "inspiration": {
         "display": "Inspiration",
         "value": false,
@@ -784,30 +812,34 @@
       },
       "proficiencyBonus": {
         "display": "Proficiency Bonus",
-        "value": 2,
+        "value": 3,
         "type": "number"
       },
       "passivePerception": {
         "display": "Passive Perception",
-        "value": 10,
+        "value": 14,
         "type": "number"
       },
       "basicInformation": {
         "display": "Basic Information",
         "fields": {
-          "class": { "display": "Class", "value": "Rogue", "type": "text" },
-          "level": { "display": "Level", "value": 2, "type": "number" },
+          "class": { "display": "Class", "value": "Fighter", "type": "text" },
+          "level": { "display": "Level", "value": 5, "type": "number" },
           "background": {
             "display": "Background",
             "value": "Outlander",
             "type": "text"
           },
-          "player": { "display": "Player", "value": "Elena", "type": "text" },
-          "race": { "display": "Race", "value": "", "type": "text" },
-          "alignment": { "display": "Alignment", "value": "", "type": "text" },
+          "player": { "display": "Player", "value": "Jared", "type": "text" },
+          "race": { "display": "Race", "value": "Wood Elf", "type": "text" },
+          "alignment": {
+            "display": "Alignment",
+            "value": "Neutral",
+            "type": "text"
+          },
           "experiencePoints": {
             "display": "Experience Points",
-            "value": 0,
+            "value": 11278,
             "type": "number"
           }
         }
@@ -815,43 +847,43 @@
       "abilityScores": {
         "display": "Ability Scores",
         "fields": {
-          "strength": { "display": "Strength", "value": 10, "type": "number" },
+          "strength": { "display": "Strength", "value": 8, "type": "number" },
           "dexterity": {
             "display": "Dexterity",
-            "value": 10,
+            "value": 16,
             "type": "number"
           },
           "constitution": {
             "display": "Constitution",
-            "value": 10,
+            "value": 13,
             "type": "number"
           },
           "intelligence": {
             "display": "Intelligence",
-            "value": 10,
+            "value": 15,
             "type": "number"
           },
-          "wisdom": { "display": "Wisdom", "value": 10, "type": "number" },
+          "wisdom": { "display": "Wisdom", "value": 13, "type": "number" },
           "charisma": { "display": "Charisma", "value": 10, "type": "number" }
         }
       },
       "savingThrows": {
         "display": "Saving Throws",
         "fields": {
-          "strength": { "display": "Strength", "value": 0, "type": "number" },
-          "dexterity": { "display": "Dexterity", "value": 0, "type": "number" },
+          "strength": { "display": "Strength", "value": 2, "type": "number" },
+          "dexterity": { "display": "Dexterity", "value": 3, "type": "number" },
           "constitution": {
             "display": "Constitution",
-            "value": 0,
+            "value": 4,
             "type": "number"
           },
           "intelligence": {
             "display": "Intelligence",
-            "value": 0,
+            "value": 2,
             "type": "number"
           },
-          "wisdom": { "display": "Wisdom", "value": 0, "type": "number" },
-          "charisma": { "display": "Charisma", "value": 0, "type": "number" }
+          "wisdom": { "display": "Wisdom", "value": 2, "type": "number" },
+          "charisma": { "display": "Charisma", "value": 1, "type": "number" }
         }
       },
       "skills": {
@@ -859,19 +891,19 @@
         "fields": {
           "acrobatics": {
             "display": "Acrobatics",
-            "value": 0,
+            "value": 6,
             "type": "number"
           },
           "animalHandling": {
             "display": "Animal Handling",
-            "value": 0,
+            "value": 1,
             "type": "number"
           },
-          "arcana": { "display": "Arcana", "value": 0, "type": "number" },
-          "athletics": { "display": "Athletics", "value": 0, "type": "number" },
+          "arcana": { "display": "Arcana", "value": 2, "type": "number" },
+          "athletics": { "display": "Athletics", "value": 2, "type": "number" },
           "deception": { "display": "Deception", "value": 0, "type": "number" },
-          "history": { "display": "History", "value": 0, "type": "number" },
-          "insight": { "display": "Insight", "value": 0, "type": "number" },
+          "history": { "display": "History", "value": 2, "type": "number" },
+          "insight": { "display": "Insight", "value": 4, "type": "number" },
           "intimidation": {
             "display": "Intimidation",
             "value": 0,
@@ -879,14 +911,14 @@
           },
           "investigation": {
             "display": "Investigation",
-            "value": 0,
+            "value": 2,
             "type": "number"
           },
-          "medicine": { "display": "Medicine", "value": 0, "type": "number" },
-          "nature": { "display": "Nature", "value": 0, "type": "number" },
+          "medicine": { "display": "Medicine", "value": 1, "type": "number" },
+          "nature": { "display": "Nature", "value": 2, "type": "number" },
           "perception": {
             "display": "Perception",
-            "value": 0,
+            "value": 4,
             "type": "number"
           },
           "performance": {
@@ -899,14 +931,14 @@
             "value": 0,
             "type": "number"
           },
-          "religion": { "display": "Religion", "value": 0, "type": "number" },
+          "religion": { "display": "Religion", "value": 2, "type": "number" },
           "sleightOfHand": {
             "display": "Sleight of Hand",
-            "value": 0,
+            "value": 3,
             "type": "number"
           },
-          "stealth": { "display": "Stealth", "value": 0, "type": "number" },
-          "survival": { "display": "Survival", "value": 0, "type": "number" }
+          "stealth": { "display": "Stealth", "value": 3, "type": "number" },
+          "survival": { "display": "Survival", "value": 4, "type": "number" }
         }
       },
       "hitPoints": {
@@ -914,12 +946,12 @@
         "fields": {
           "currentHitPoints": {
             "display": "Current Hit Points",
-            "value": 0,
+            "value": 39,
             "type": "number"
           },
           "maximumHitPoints": {
             "display": "Maximum Hit Points",
-            "value": 0,
+            "value": 39,
             "type": "number"
           },
           "temporaryHitPoints": {
@@ -932,8 +964,8 @@
       "hitDice": {
         "display": "Hit Dice",
         "fields": {
-          "current": { "display": "Current", "value": 1, "type": "number" },
-          "maximum": { "display": "Maximum", "value": 1, "type": "number" },
+          "current": { "display": "Current", "value": 3, "type": "number" },
+          "maximum": { "display": "Maximum", "value": 5, "type": "number" },
           "type": { "display": "Type", "value": "1d10", "type": "text" }
         }
       },
@@ -946,15 +978,19 @@
       },
       "attacksAndSpellcasting": {
         "display": "Attacks and Spellcasting",
-        "value": "",
+        "value": "Hand Crossbow\n+8 to hit\n1d6+3 piercing\n\nScimitar\n+6 to hit\n1d6+3 slashing\n\nLight Crossbow\n+8 to hit\n1d8+3 piercing",
         "type": "textarea"
       },
       "proficiencies": {
         "display": "Proficiencies",
-        "value": "",
+        "value": "Common, Dwarvish, Elvish",
         "type": "textarea"
       },
-      "equipment": { "display": "Equipment", "value": "", "type": "textarea" },
+      "equipment": {
+        "display": "Equipment",
+        "value": "Staff\nHunting Trap\nAnimal Trophy\nBag of Holding\nMinor Healing Potion (4)\nOil Flask (6)\nAcid Vial (2)\nGrappling Hook\nDungeoneer's Pack\nRations (20)\nWater (3 days)",
+        "type": "textarea"
+      },
       "features": { "display": "Features", "value": "", "type": "textarea" },
       "mentality": {
         "display": "Mentality",
@@ -1003,7 +1039,7 @@
                 "type": "number"
               }
             },
-            "value": "",
+            "value": "Slots 3/3\n\nMage Armor\nFeather Fall\nMagic Missile\nShield",
             "type": "textarea"
           },
           "2": {
