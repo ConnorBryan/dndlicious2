@@ -1,0 +1,342 @@
+{
+  "name": { "display": "Name", "value": "Willy", "type": "text" },
+  "armorClass": { "display": "Armor Class", "value": 10, "type": "number" },
+  "initiative": { "display": "Initiative", "value": 0, "type": "number" },
+  "speed": { "display": "Speed", "value": 0, "type": "number" },
+  "resources": { "display": "Resources", "value": 0, "type": "number" },
+  "gold": { "display": "Gold", "value": 0, "type": "number" },
+  "inspiration": {
+    "display": "Inspiration",
+    "value": false,
+    "type": "checkbox"
+  },
+  "proficiencyBonus": {
+    "display": "Proficiency Bonus",
+    "value": 2,
+    "type": "number"
+  },
+  "passivePerception": {
+    "display": "Passive Perception",
+    "value": 10,
+    "type": "number"
+  },
+  "basicInformation": {
+    "display": "Basic Information",
+    "fields": {
+      "class": { "display": "Class", "value": "Rogue", "type": "text" },
+      "level": { "display": "Level", "value": 2, "type": "number" },
+      "background": {
+        "display": "Background",
+        "value": "Outlander",
+        "type": "text"
+      },
+      "player": { "display": "Player", "value": "Elena", "type": "text" },
+      "race": { "display": "Race", "value": "", "type": "text" },
+      "alignment": { "display": "Alignment", "value": "", "type": "text" },
+      "experiencePoints": {
+        "display": "Experience Points",
+        "value": 0,
+        "type": "number"
+      }
+    }
+  },
+  "abilityScores": {
+    "display": "Ability Scores",
+    "fields": {
+      "strength": { "display": "Strength", "value": 10, "type": "number" },
+      "dexterity": { "display": "Dexterity", "value": 10, "type": "number" },
+      "constitution": {
+        "display": "Constitution",
+        "value": 10,
+        "type": "number"
+      },
+      "intelligence": {
+        "display": "Intelligence",
+        "value": 10,
+        "type": "number"
+      },
+      "wisdom": { "display": "Wisdom", "value": 10, "type": "number" },
+      "charisma": { "display": "Charisma", "value": 10, "type": "number" }
+    }
+  },
+  "savingThrows": {
+    "display": "Saving Throws",
+    "fields": {
+      "strength": { "display": "Strength", "value": 0, "type": "number" },
+      "dexterity": { "display": "Dexterity", "value": 0, "type": "number" },
+      "constitution": {
+        "display": "Constitution",
+        "value": 0,
+        "type": "number"
+      },
+      "intelligence": {
+        "display": "Intelligence",
+        "value": 0,
+        "type": "number"
+      },
+      "wisdom": { "display": "Wisdom", "value": 0, "type": "number" },
+      "charisma": { "display": "Charisma", "value": 0, "type": "number" }
+    }
+  },
+  "skills": {
+    "display": "Skills",
+    "fields": {
+      "acrobatics": { "display": "Acrobatics", "value": 0, "type": "number" },
+      "animalHandling": {
+        "display": "Animal Handling",
+        "value": 0,
+        "type": "number"
+      },
+      "arcana": { "display": "Arcana", "value": 0, "type": "number" },
+      "athletics": { "display": "Athletics", "value": 0, "type": "number" },
+      "deception": { "display": "Deception", "value": 0, "type": "number" },
+      "history": { "display": "History", "value": 0, "type": "number" },
+      "insight": { "display": "Insight", "value": 0, "type": "number" },
+      "intimidation": {
+        "display": "Intimidation",
+        "value": 0,
+        "type": "number"
+      },
+      "investigation": {
+        "display": "Investigation",
+        "value": 0,
+        "type": "number"
+      },
+      "medicine": { "display": "Medicine", "value": 0, "type": "number" },
+      "nature": { "display": "Nature", "value": 0, "type": "number" },
+      "perception": { "display": "Perception", "value": 0, "type": "number" },
+      "performance": { "display": "Performance", "value": 0, "type": "number" },
+      "persuasion": { "display": "Persuasion", "value": 0, "type": "number" },
+      "religion": { "display": "Religion", "value": 0, "type": "number" },
+      "sleightOfHand": {
+        "display": "Sleight of Hand",
+        "value": 0,
+        "type": "number"
+      },
+      "stealth": { "display": "Stealth", "value": 0, "type": "number" },
+      "survival": { "display": "Survival", "value": 0, "type": "number" }
+    }
+  },
+  "hitPoints": {
+    "display": "Hit Points",
+    "fields": {
+      "currentHitPoints": {
+        "display": "Current Hit Points",
+        "value": 0,
+        "type": "number"
+      },
+      "maximumHitPoints": {
+        "display": "Maximum Hit Points",
+        "value": 0,
+        "type": "number"
+      },
+      "temporaryHitPoints": {
+        "display": "Temporary Hit Points",
+        "value": 0,
+        "type": "number"
+      }
+    }
+  },
+  "hitDice": {
+    "display": "Hit Dice",
+    "fields": {
+      "current": { "display": "Current", "value": 1, "type": "number" },
+      "maximum": { "display": "Maximum", "value": 1, "type": "number" },
+      "type": { "display": "Type", "value": "1d10", "type": "text" }
+    }
+  },
+  "deathSaves": {
+    "display": "Death Saves",
+    "fields": {
+      "successes": { "display": "Successes", "value": 0, "type": "number" },
+      "failures": { "display": "Failures", "value": 0, "type": "number" }
+    }
+  },
+  "attacksAndSpellcasting": {
+    "display": "Attacks and Spellcasting",
+    "entries": []
+  },
+  "proficiencies": { "display": "Proficiencies", "entries": [] },
+  "equipment": { "display": "Equipment", "entries": [] },
+  "features": { "display": "Features", "entries": [] },
+  "mentality": {
+    "display": "Mentality",
+    "fields": {
+      "personalityTraits": {
+        "display": "Personality Traits",
+        "value": "",
+        "type": "textarea"
+      },
+      "ideals": { "display": "Ideals", "value": "", "type": "textarea" },
+      "flaws": { "display": "Flaws", "value": "", "type": "textarea" },
+      "bonds": { "display": "Bonds", "value": "", "type": "textarea" }
+    }
+  },
+  "physique": {
+    "display": "Physique",
+    "fields": {
+      "age": { "display": "Age", "value": 0, "type": "number" },
+      "height": { "display": "Height", "value": 0, "type": "number" },
+      "weight": { "display": "Weight", "value": 0, "type": "number" },
+      "eyes": { "display": "Eyes", "value": "", "type": "text" },
+      "skin": { "display": "Skin", "value": "", "type": "text" },
+      "hair": { "display": "Hair", "value": "", "type": "text" }
+    }
+  },
+  "backstory": { "display": "Backstory", "value": "", "type": "textarea" },
+  "alliesOrganizations": {
+    "display": "Allies and Organizations",
+    "value": "",
+    "type": "textarea"
+  },
+  "spells": {
+    "display": "Spells",
+    "fields": {
+      "1": {
+        "display": "Level 1",
+        "fields": {
+          "totalSlots": {
+            "display": "Total Slots",
+            "value": 0,
+            "type": "number"
+          },
+          "remainingSlots": {
+            "display": "Remaining Slots",
+            "value": 0,
+            "type": "number"
+          }
+        },
+        "entries": []
+      },
+      "2": {
+        "display": "Level 2",
+        "fields": {
+          "totalSlots": {
+            "display": "Total Slots",
+            "value": 0,
+            "type": "number"
+          },
+          "remainingSlots": {
+            "display": "Remaining Slots",
+            "value": 0,
+            "type": "number"
+          }
+        },
+        "entries": []
+      },
+      "3": {
+        "display": "Level 3",
+        "fields": {
+          "totalSlots": {
+            "display": "Total Slots",
+            "value": 0,
+            "type": "number"
+          },
+          "remainingSlots": {
+            "display": "Remaining Slots",
+            "value": 0,
+            "type": "number"
+          }
+        },
+        "entries": []
+      },
+      "4": {
+        "display": "Level 4",
+        "fields": {
+          "totalSlots": {
+            "display": "Total Slots",
+            "value": 0,
+            "type": "number"
+          },
+          "remainingSlots": {
+            "display": "Remaining Slots",
+            "value": 0,
+            "type": "number"
+          }
+        },
+        "entries": []
+      },
+      "5": {
+        "display": "Level 5",
+        "fields": {
+          "totalSlots": {
+            "display": "Total Slots",
+            "value": 0,
+            "type": "number"
+          },
+          "remainingSlots": {
+            "display": "Remaining Slots",
+            "value": 0,
+            "type": "number"
+          }
+        },
+        "entries": []
+      },
+      "6": {
+        "display": "Level 6",
+        "fields": {
+          "totalSlots": {
+            "display": "Total Slots",
+            "value": 0,
+            "type": "number"
+          },
+          "remainingSlots": {
+            "display": "Remaining Slots",
+            "value": 0,
+            "type": "number"
+          }
+        },
+        "entries": []
+      },
+      "7": {
+        "display": "Level 7",
+        "fields": {
+          "totalSlots": {
+            "display": "Total Slots",
+            "value": 0,
+            "type": "number"
+          },
+          "remainingSlots": {
+            "display": "Remaining Slots",
+            "value": 0,
+            "type": "number"
+          }
+        },
+        "entries": []
+      },
+      "8": {
+        "display": "Level 8",
+        "fields": {
+          "totalSlots": {
+            "display": "Total Slots",
+            "value": 0,
+            "type": "number"
+          },
+          "remainingSlots": {
+            "display": "Remaining Slots",
+            "value": 0,
+            "type": "number"
+          }
+        },
+        "entries": []
+      },
+      "9": {
+        "display": "Level 9",
+        "fields": {
+          "totalSlots": {
+            "display": "Total Slots",
+            "value": 0,
+            "type": "number"
+          },
+          "remainingSlots": {
+            "display": "Remaining Slots",
+            "value": 0,
+            "type": "number"
+          }
+        },
+        "entries": []
+      },
+      "cantrips": { "display": "Cantrips", "entries": [] }
+    }
+  }
+}
