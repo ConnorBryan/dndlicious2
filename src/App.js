@@ -549,6 +549,10 @@ function App() {
                         ...game,
                         encounter
                       });
+
+                      window.localStorage.setItem("game", JSON.stringify(game));
+
+                      socket.send(JSON.stringify(game));
                     }
 
                     function next() {
