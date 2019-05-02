@@ -22,3 +22,5 @@ wsServer.on("connection", socket => {
     connectedSockets.splice(connectedSockets.indexOf(socket), 1);
   });
 });
+
+server.listen(9000);
